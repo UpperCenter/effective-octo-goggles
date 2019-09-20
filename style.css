@@ -1,0 +1,54 @@
+body {
+    background-image: url("background.png");
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.35;
+    margin: 0;
+    padding: 0;
+}
+
+/* Big Laz */
+a {
+    color: #B4FFC2;
+}
+
+/* default spacing for small screen */
+.container {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 2em;
+    text-align: center;
+}
+
+.container h2 {
+    border-radius: 5px;
+    background: #417B48;
+    border: 2px solid rgba(4, 27, 9, 0.6901960784313725);
+    padding: 5px
+}
+
+.container p {
+    border-radius: 5px;
+    margin: 1.4em 0;
+    background: #417B48;
+    border: 2px solid rgba(4, 27, 9, 0.6901960784313725);
+    padding: 5px
+}
+
+.logo {
+    width: 108px;
+    max-width: 100%;
+}
+
+/* spacing for larger screens */
+@media screen and (min-width: 570px) {
+    .container {
+        padding-top: 4em;
+    }
+}
+@media screen and (min-width: 870px) {
+    .container {
+        max-width: 790px;
+        padding-top: 6em;
+    }
+}
